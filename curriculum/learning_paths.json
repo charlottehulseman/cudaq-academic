@@ -1,0 +1,35 @@
+{
+    "code_first": {
+        "name": "Code-First Path",
+        "description": "For CS students - start with implementation",
+        "prerequisites": [],
+        "modules": [
+            "quantum_circuits_basics",
+            "quantum_gates_coding",
+            "algorithms_implementation"
+        ],
+        "estimated_hours": 20
+    },
+    "theory_first": {
+        "name": "Theory-First Path", 
+        "description": "For Physics students - start with concepts",
+        "prerequisites": [],
+        "modules": [
+            "quantum_mechanics_review",
+            "qubit_mathematics",
+            "quantum_algorithms_theory"
+        ],
+        "estimated_hours": 22
+    },
+    "visual_first": {
+        "name": "Visual-First Path",
+        "description": "For beginners - start with visualizations",
+        "prerequisites": ["python_basics", "linear_algebra_primer"],
+        "modules": [
+            "quantum_visual_intro",
+            "circuit_builder_tutorial",
+            "hands_on_experiments"
+        ],
+        "estimated_hours": 25
+    }
+}

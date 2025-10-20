@@ -1,42 +1,46 @@
 # CUDA-Q Quantum Quest 🚀
 
-## Start Your Quantum Journey → Win a Trip to NVIDIA
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/cuda-q-quantum-quest/blob/main/notebooks/01_quantum_rng_demo.ipynb)
+
+## Start Your Quantum Journey → Win a Trip to NVIDIA GTC
 
 ### 🎯 The Quest
 Complete levels, earn badges, qualify for the hackathon, and potentially present at NVIDIA GTC!
 
-### 🗺️ Your Personalized Path
-```mermaid
-graph TD
-    A[Take Assessment] --> B{Background?}
-    B -->|CS| C[Path A: Code First]
-    B -->|Physics| D[Path B: Theory First]
-    B -->|Other| E[Path C: Visual First]
-    C --> F[Level 0: Foundations]
-    D --> F
-    E --> F
-    F --> G[Progress Through Levels]
-    G --> H{Level 3+?}
-    H -->|Yes| I[Join Hackathon]
-    I --> J[Win & Present at NVIDIA!]
-```
+### 🗺️ Learning Path
+1. **Assessment** - Find your personalized path
+2. **Prerequisites** - Fill knowledge gaps (0-6 hours)
+3. **Core Levels** - Build quantum skills (20 hours)
+4. **Hackathon** - Compete for NVIDIA presentation (1 week)
 
-### 🏁 Quick Start
+### 📊 Scoring System
+- Level 0: 0-100 points (Quantum Initiate)
+- Level 1: 100-300 points (Superposition Explorer)
+- Level 2: 300-500 points (Entanglement Engineer)
+- Level 3: 500-700 points (Algorithm Apprentice)
+- Level 4: 700-1000 points (Application Architect)
+- Level 5: 1000+ points (Optimization Oracle)
+
+**Hackathon Eligibility: Level 3+**
+
+### 🚀 Quick Start
 ```bash
-# 1. Take the assessment
-jupyter notebook onboarding/assessment_quiz.ipynb
-
-# 2. Complete your prerequisites
-# (Automatically assigned based on assessment)
-
-# 3. Start Level 0
-cd quest_levels/level_0_foundations
+# Run in Google Colab - no installation needed!
+# Click the badge above or:
+# 1. Open any notebook in notebooks/
+# 2. First cell will install CUDA-Q
+# 3. Start learning!
 ```
 
-### 📊 Live Leaderboard
-[Link to real-time leaderboard]
+## Repository Contents
+- `notebooks/` - Interactive tutorials
+- `src/` - Core functionality
+- `curriculum/` - Learning paths and content
+```
 
-### 🏆 Current Champions
-- Fastest to Level 5: @quantum_speedrunner (3 days!)
-- Most Helpful: @quantum_mentor (helped 47 students)
-- Creative Badge: @quantum_artist (beautiful visualizations)
+### **2. `requirements.txt`**
+```
+cudaq
+numpy>=1.24.0
+matplotlib>=3.6.0
+ipywidgets>=8.0.0
